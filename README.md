@@ -21,11 +21,11 @@ Cada equipe tem três alunos. Dividam as tarefas entre os integrantes:
 
 | Equipe | Integrantes | Tema e responsabilidade | Arquivos principais |
 | --- | --- | --- | --- |
-| 1 — Menu e navegação | Vinicius, Lucas e Giovanny | Cabeçalho, logotipo, links, menu responsivo e CSS de navegação. Confiram se o cabeçalho está consistente nas páginas. | Todos os HTMLs e `css/menu.css` |
-| 2 — Especial de Halloween | Micael, Giovanna S e Zaqueu | Página comemorativa, decoração temática, filmes recomendados e mensagens. | `halloween.html` e `css/halloween.css` |
-| 3 — Catálogo | Anna, Augusto e Mayara | Cards dos filmes, imagens, sinopses, gêneros, classificações e navegação por categorias. | `filmes.html`, `categorias.html` e `css/catalogo.css` |
-| 4 — Detalhes e cadastro | Sibele, Helena e Giovanna B | Página com detalhes dos filmes e formulário visual para títulos, gêneros e descrições. | `detalhes-filme.html`, `cadastro.html` e `css/detalhes-cadastro.css` |
-| 5 — Dashboard | Henrique, Thiago e Pedro | Página inicial, banner, apresentação da locadora e área de destaques. | `index.html` e `css/dashboard.css` |
+| 1 Menu e navegação | Vinicius, Lucas e Giovanny | Cabeçalho, logotipo, links, menu responsivo e CSS de navegação. Confiram se o cabeçalho está consistente nas páginas. | Todos os HTMLs e `css/menu.css` |
+| 2 Especial de Halloween | Micael, Giovanna S e Zaqueu | Página comemorativa, decoração temática, filmes recomendados e mensagens. | `halloween.html` e `css/halloween.css` |
+| 3 Catálogo | Anna, Augusto e Mayara | Cards dos filmes, imagens, sinopses, gêneros, classificações e navegação por categorias. | `filmes.html`, `categorias.html` e `css/catalogo.css` |
+| 4 Detalhes e cadastro | Sibele, Helena e Giovanna B | Página com detalhes dos filmes e formulário visual para títulos, gêneros e descrições. | `detalhes-filme.html`, `cadastro.html` e `css/detalhes-cadastro.css` |
+| 5 Dashboard | Henrique, Thiago e Pedro | Página inicial, banner, apresentação da locadora e área de destaques. | `index.html` e `css/dashboard.css` |
 
 O arquivo `favoritos.html` é uma página complementar do projeto. Todas as
 equipes devem ajudar a conferir seus links e sua apresentação durante a revisão
