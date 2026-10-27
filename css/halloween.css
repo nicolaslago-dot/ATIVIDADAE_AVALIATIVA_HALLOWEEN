@@ -1,0 +1,38 @@
+.pagina-halloween main > h1 {
+  color: #ff9a3c;
+  text-shadow: 0 0 18px #a83232;
+}
+
+.pagina-halloween main > img {
+  display: block;
+  width: min(600px, 100%);
+  margin: 1.5rem auto;
+  border: 3px solid #ff8c42;
+  border-radius: 14px;
+}
+
+#contagem {
+  padding: 1.25rem;
+  border: 1px solid #a34a24;
+  border-radius: 14px;
+  background: #301c20;
+  text-align: center;
+}
+
+#contagem p:last-child {
+  color: #ffd166;
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  font-weight: 700;
+}
+
+.pagina-halloween main > section:last-of-type > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  gap: 1rem;
+}
+
+.pagina-halloween .card img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+}

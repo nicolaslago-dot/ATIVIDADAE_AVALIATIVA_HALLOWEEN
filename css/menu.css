@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 4%;
+  background: #211a2b;
+}
+
+header > img {
+  flex: 0 0 auto;
+}
+
+header > p {
+  margin: 0;
+  color: #ffb347;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem 1rem;
+}
+
+.menu a {
+  padding: 0.35rem 0.2rem;
+  color: #f7f1fa;
+  text-decoration: none;
+}
+
+.menu a:hover,
+.menu a[aria-current="page"] {
+  color: #ffb347;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    flex-basis: 100%;
+    justify-content: flex-start;
+  }
+}

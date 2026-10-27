@@ -1,0 +1,58 @@
+#detalhes > .filme-detalhe {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) 1fr;
+  gap: 1.5rem;
+  margin-block: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid #493750;
+  border-radius: 12px;
+  background: #211a2b;
+  scroll-margin-top: 1rem;
+}
+
+.filme-detalhe img {
+  width: 100%;
+  align-self: start;
+  border-radius: 8px;
+}
+
+#cadastro {
+  max-width: 650px;
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: #211a2b;
+}
+
+#cadastro input,
+#cadastro select,
+#cadastro textarea {
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.7rem;
+  border: 1px solid #806b89;
+  border-radius: 6px;
+  background: #100d16;
+  color: #f7f1fa;
+  font: inherit;
+}
+
+#cadastro button + button {
+  margin-left: 0.5rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid #806b89;
+  border-radius: 8px;
+  background: transparent;
+  color: #f7f1fa;
+  font: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #detalhes > .filme-detalhe {
+    grid-template-columns: 1fr;
+  }
+
+  .filme-detalhe img {
+    width: min(220px, 100%);
+  }
+}

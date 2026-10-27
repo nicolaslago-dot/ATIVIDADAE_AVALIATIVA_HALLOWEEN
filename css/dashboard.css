@@ -1,0 +1,30 @@
+#banner {
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  border-radius: 18px;
+  background: linear-gradient(135deg, #34203e, #6f2d3e);
+  text-align: center;
+}
+
+#banner img {
+  display: block;
+  width: min(600px, 100%);
+  margin: 1.5rem auto;
+  border-radius: 12px;
+}
+
+#banner p {
+  max-width: 650px;
+  margin: 1rem auto;
+}
+
+#banner + section {
+  margin-top: 2rem;
+}
+
+#banner + section .card {
+  max-width: 360px;
+}
+
+main > section:not(#banner) {
+  margin-block: 2rem;
+}

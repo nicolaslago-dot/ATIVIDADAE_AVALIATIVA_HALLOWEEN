@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">JARDIM DOS ESQUECIDOS</title>
+<desc id="descricao">Cartaz geométrico provisório criado para a atividade Halloweenflix.</desc>
+<rect width="320" height="460" fill="#100d16"/>
+<rect x="12" y="12" width="296" height="436" rx="8" fill="#41603b"/>
+<circle cx="230" cy="100" r="35" fill="#d0c2db"/>
+<text x="160" y="52" fill="#f7f2fa" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">HALLOWEENFLIX • CARTAZ PROVISÓRIO</text>
+<path d="M95 320 V220 Q70 190 90 170 Q110 160 120 200 L135 240 V175 Q150 155 165 175 V240 L190 185 Q215 170 220 195 L205 270 V320Z" fill="#bbf268"/>
+<text x="160" y="375" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">JARDIM DOS</text>
+<text x="160" y="405" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">ESQUECIDOS</text>
+<text x="160" y="434" fill="#ffffff" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">FILME FICTÍCIO • MATERIAL DE AULA</text>
+</svg>

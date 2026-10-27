@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias favoritas | Halloweenflix</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/favoritos.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/logo.png" alt="Logo Halloweenflix" width="60">
+    <p>Halloweenflix</p>
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="filmes.html">Filmes</a>
+      <a href="favoritos.html" aria-current="page">Mídias favoritas</a>
+      <a href="categorias.html">Categorias</a>
+      <a href="halloween.html">Halloween</a>
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="apresentacao">
+      <p class="etiqueta">Espaço da turma</p>
+      <h1>Nossas mídias favoritas de terror</h1>
+      <p>Filmes, séries, jogos, livros e outras histórias assustadoras escolhidas pelos alunos.</p>
+      <a class="botao" href="#colecao-favorita">Ver mídias favoritas</a>
+    </section>
+
+    <section class="colecao" aria-labelledby="titulo-colecao">
+      <div class="titulo-secao">
+        <p class="etiqueta">Nosso catálogo</p>
+        <h2 id="titulo-colecao">Escolhas que dão arrepios</h2>
+        <p>Use os exemplos como modelo e acrescente um card para cada mídia favorita.</p>
+      </div>
+
+      <div class="grade-cards">
+        <article class="card">
+          <div class="poster poster-filme" aria-hidden="true"><span>FILME</span></div>
+          <div class="card-conteudo">
+            <p class="tipo">Filme · Sobrenatural</p>
+            <h3>A Casa das Sombras</h3>
+            <p>Uma casa antiga esconde um segredo que só aparece depois da meia-noite.</p>
+            <p class="autor">Indicado por: Equipe Halloweenflix</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="poster poster-serie" aria-hidden="true"><span>SÉRIE</span></div>
+          <div class="card-conteudo">
+            <p class="tipo">Série · Mistério</p>
+            <h3>Ecos da Névoa</h3>
+            <p>Em uma cidade isolada, cada episódio revela uma pista sobre o desaparecimento de seus moradores.</p>
+            <p class="autor">Indicado por: Equipe Halloweenflix</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="poster poster-livro" aria-hidden="true"><span>LIVRO</span></div>
+          <div class="card-conteudo">
+            <p class="tipo">Livro · Terror psicológico</p>
+            <h3>O Diário do Sótão</h3>
+            <p>Um diário encontrado no sótão conta acontecimentos que ainda não aconteceram.</p>
+            <p class="autor">Indicado por: Equipe Halloweenflix</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <aside class="aviso">
+      <h2>Como adicionar sua mídia?</h2>
+      <p>Neste arquivo, copie um bloco <code>&lt;article class="card"&gt;</code> e troque tipo, título, descrição e nome do aluno. O visual dos cards fica em <strong>css/favoritos.css</strong>.</p>
+      <p>Esta atividade usa HTML e CSS: os cards são adicionados editando o arquivo, não por um formulário.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Halloweenflix — projeto da turma.</p>
+    <a href="index.html">Voltar ao início</a>
+  </footer>
+</body>
+</html>
