@@ -1,69 +1,38 @@
-* {
-  box-sizing: border-box;
-}
+/*
+Este arquivo descreve o que deve ser feito com o visual geral do site.
+Não há regras CSS implementadas aqui.
 
-body {
-  margin: 0;
-  background: #100d16;
-  color: #f7f1fa;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-}
+Todos os elementos:
+- Considerar bordas e espaçamentos dentro do tamanho total de cada elemento.
 
-main {
-  width: min(1100px, 92%);
-  margin: 2rem auto;
-}
+Página inteira (body):
+- Remover a margem padrão do navegador.
+- Usar um fundo escuro, texto claro e uma fonte simples e legível.
+- Definir uma altura de linha confortável para leitura.
 
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
+Conteúdo principal (main):
+- Centralizar o conteúdo na página.
+- Limitar a largura em telas grandes e manter margens laterais em telas pequenas.
 
-a {
-  color: #ffb347;
-}
+Títulos:
+- Manter as linhas dos títulos próximas umas das outras.
 
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-select:focus-visible,
-textarea:focus-visible {
-  outline: 3px solid #ffd166;
-  outline-offset: 3px;
-}
+Links:
+- Usar uma cor de destaque que contraste com o fundo escuro.
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+Elementos interativos:
+- Mostrar um contorno visível ao navegar com teclado por links, botões e campos.
 
-footer {
-  padding: 1.5rem 4%;
-  background: #211a2b;
-  text-align: center;
-}
+Imagens:
+- Impedir que ultrapassem a largura disponível e preservar suas proporções.
 
-.card {
-  padding: 1rem;
-  border: 1px solid #493750;
-  border-radius: 12px;
-  background: #211a2b;
-}
+Rodapé (footer):
+- Criar uma área visual separada, com espaçamento, fundo escuro e conteúdo centralizado.
 
-.botao {
-  display: inline-block;
-  padding: 0.65rem 1rem;
-  border: 0;
-  border-radius: 8px;
-  background: #ff8c42;
-  color: #1b1010;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-}
+Cartões (.card):
+- Aplicar espaçamento interno, borda, cantos arredondados e fundo de painel.
 
-.botao:hover {
-  background: #ffb347;
-}
+Botões (.botao):
+- Dar aparência de botão aos elementos com essa classe, destacando texto e fundo.
+- Alterar a cor do botão quando o ponteiro passar sobre ele.
+*/

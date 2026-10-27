@@ -1,50 +1,27 @@
-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem 4%;
-  background: #211a2b;
-}
+/*
+Este arquivo descreve o que deve ser feito com o cabeçalho e a navegação.
+Não há regras CSS implementadas aqui.
 
-header > img {
-  flex: 0 0 auto;
-}
+Cabeçalho (header):
+- Alinhar logo, nome do site e menu horizontalmente.
+- Manter espaçamento entre os elementos e um fundo diferente do conteúdo.
 
-header > p {
-  margin: 0;
-  color: #ffb347;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
+Logo:
+- Evitar que a imagem da logo encolha dentro do cabeçalho.
 
-.menu {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 0.5rem 1rem;
-}
+Nome do site:
+- Remover margens externas e usar texto destacado e fácil de identificar.
 
-.menu a {
-  padding: 0.35rem 0.2rem;
-  color: #f7f1fa;
-  text-decoration: none;
-}
+Menu (.menu):
+- Organizar os links em uma linha, alinhados à direita.
+- Permitir que os links quebrem para outra linha quando faltar espaço.
+- Manter espaçamento entre os itens.
 
-.menu a:hover,
-.menu a[aria-current="page"] {
-  color: #ffb347;
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-}
+Links do menu:
+- Usar texto claro, sem sublinhado permanente e com área de espaçamento confortável.
+- Destacar o link atual e o link sob o ponteiro com a cor de destaque e sublinhado.
 
-@media (max-width: 700px) {
-  header {
-    flex-wrap: wrap;
-  }
-
-  .menu {
-    flex-basis: 100%;
-    justify-content: flex-start;
-  }
-}
+Telas menores:
+- Permitir que o cabeçalho quebre em linhas.
+- Colocar o menu abaixo dos demais elementos e alinhar seus links à esquerda.
+*/

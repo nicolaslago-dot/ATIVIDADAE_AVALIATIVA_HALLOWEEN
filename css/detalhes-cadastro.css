@@ -1,58 +1,21 @@
-#detalhes > .filme-detalhe {
-  display: grid;
-  grid-template-columns: minmax(150px, 220px) 1fr;
-  gap: 1.5rem;
-  margin-block: 1.5rem;
-  padding: 1.25rem;
-  border: 1px solid #493750;
-  border-radius: 12px;
-  background: #211a2b;
-  scroll-margin-top: 1rem;
-}
+/*
+Este arquivo descreve o que deve ser feito nas páginas de detalhes do filme e cadastro.
+Não há regras CSS implementadas aqui.
 
-.filme-detalhe img {
-  width: 100%;
-  align-self: start;
-  border-radius: 8px;
-}
+Detalhes do filme (.filme-detalhe):
+- Organizar as informações em duas colunas: uma para a imagem e outra para os dados.
+- Manter espaçamento entre as colunas, fundo de painel, borda e cantos arredondados.
+- Fazer com que a imagem fique alinhada ao início da coluna.
+- Evitar que o conteúdo fique escondido atrás de elementos fixos ao navegar até ele.
 
-#cadastro {
-  max-width: 650px;
-  padding: 1.25rem;
-  border-radius: 12px;
-  background: #211a2b;
-}
+Formulário de cadastro (#cadastro):
+- Limitar a largura do formulário.
+- Aplicar espaçamento interno, fundo de painel e cantos arredondados.
+- Padronizar campos de texto, seleção e área de mensagem com largura completa,
+  espaço interno, borda e cores adequadas ao tema escuro.
+- Diferenciar o botão secundário com fundo transparente e borda.
 
-#cadastro input,
-#cadastro select,
-#cadastro textarea {
-  width: 100%;
-  margin-top: 0.35rem;
-  padding: 0.7rem;
-  border: 1px solid #806b89;
-  border-radius: 6px;
-  background: #100d16;
-  color: #f7f1fa;
-  font: inherit;
-}
-
-#cadastro button + button {
-  margin-left: 0.5rem;
-  padding: 0.65rem 1rem;
-  border: 1px solid #806b89;
-  border-radius: 8px;
-  background: transparent;
-  color: #f7f1fa;
-  font: inherit;
-  cursor: pointer;
-}
-
-@media (max-width: 600px) {
-  #detalhes > .filme-detalhe {
-    grid-template-columns: 1fr;
-  }
-
-  .filme-detalhe img {
-    width: min(220px, 100%);
-  }
-}
+Telas estreitas:
+- Empilhar imagem e informações do filme em uma coluna.
+- Limitar a largura da imagem para que continue confortável de visualizar.
+*/

@@ -1,30 +1,27 @@
-#banner {
-  padding: clamp(1.5rem, 5vw, 3.5rem);
-  border-radius: 18px;
-  background: linear-gradient(135deg, #34203e, #6f2d3e);
-  text-align: center;
-}
+/*
+Este arquivo descreve o que deve ser feito com o visual da página inicial.
+Não há regras CSS implementadas aqui.
 
-#banner img {
-  display: block;
-  width: min(600px, 100%);
-  margin: 1.5rem auto;
-  border-radius: 12px;
-}
+Banner (#banner):
+- Criar um painel de destaque com fundo colorido e cantos arredondados.
+- Centralizar o texto e os elementos dentro do painel.
+- Ajustar o espaçamento interno para ficar confortável em telas de vários tamanhos.
 
-#banner p {
-  max-width: 650px;
-  margin: 1rem auto;
-}
+Imagem do banner (#banner img):
+- Exibir a imagem como bloco e centralizá-la.
+- Limitar sua largura para não ultrapassar o espaço disponível.
+- Adicionar espaço ao redor e cantos arredondados.
 
-#banner + section {
-  margin-top: 2rem;
-}
+Texto do banner (#banner p):
+- Limitar a largura do parágrafo para facilitar a leitura.
+- Centralizar o texto e deixar espaço acima e abaixo.
 
-#banner + section .card {
-  max-width: 360px;
-}
+Seção seguinte ao banner (#banner + section):
+- Adicionar espaço entre o banner e a seção do filme em destaque.
 
-main > section:not(#banner) {
-  margin-block: 2rem;
-}
+Cartão do filme em destaque (#banner + section .card):
+- Limitar a largura máxima do cartão para manter uma apresentação compacta.
+
+Outras seções da página inicial (main > section:not(#banner)):
+- Adicionar espaço vertical entre as seções.
+*/

@@ -1,238 +1,83 @@
-:root {
-  color-scheme: dark;
-  --fundo: #100d14;
-  --painel: #1d1723;
-  --texto: #f8f2f8;
-  --texto-suave: #c9bdcc;
-  --destaque: #ff6b35;
-  --borda: #44354b;
-}
+/*
+Este arquivo descreve o que deve ser feito com a página de mídias favoritas.
+Não há regras CSS implementadas aqui.
 
-* {
-  box-sizing: border-box;
-}
+Tema e cores:
+- Usar um esquema escuro com cores reutilizáveis para fundo, painéis, texto,
+  texto secundário, destaque e bordas.
 
-body {
-  margin: 0;
-  background: var(--fundo);
-  color: var(--texto);
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-}
+Todos os elementos:
+- Considerar bordas e espaçamentos dentro do tamanho total dos elementos.
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem clamp(1rem, 5vw, 4rem);
-  background: #19131e;
-  border-bottom: 1px solid var(--borda);
-}
+Página inteira:
+- Remover a margem padrão e aplicar fundo escuro, texto claro e fonte legível.
+- Usar uma altura de linha confortável.
 
-header > p {
-  margin: 0;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
+Cabeçalho:
+- Distribuir o nome do site e o menu, com espaçamento e borda inferior.
+- Remover a margem do nome do site e destacá-lo visualmente.
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-}
+Menu e rodapé:
+- Exibir links claros sem sublinhado permanente.
+- Destacar links quando apontados ou focados com teclado.
+- Mostrar contorno de foco visível durante a navegação por teclado.
 
-.menu a,
-footer a {
-  color: var(--texto);
-  text-decoration: none;
-}
+Conteúdo principal:
+- Centralizar o conteúdo, limitar sua largura e adicionar espaçamento vertical.
 
-.menu a:hover,
-.menu a:focus-visible,
-footer a:hover,
-footer a:focus-visible {
-  color: var(--destaque);
-}
+Apresentação (.apresentacao):
+- Criar um painel de introdução com espaço interno, fundo em degradê, borda e cantos arredondados.
 
-.menu a:focus-visible,
-.botao:focus-visible,
-footer a:focus-visible {
-  outline: 2px solid var(--destaque);
-  outline-offset: 4px;
-}
+Etiquetas e tipos (.etiqueta e .tipo):
+- Destacar os rótulos com a cor principal, letras em maiúsculas e espaçamento entre caracteres.
 
-main {
-  width: min(1120px, calc(100% - 2rem));
-  margin: 0 auto;
-  padding: 2rem 0 4rem;
-}
+Títulos e parágrafos:
+- Remover a margem superior padrão.
+- Dar ao título principal um tamanho responsivo, largura limitada e espaçamento inferior.
+- Limitar a largura do texto de apresentação e usar uma cor mais suave.
 
-.apresentacao {
-  padding: clamp(2rem, 7vw, 5rem);
-  background: linear-gradient(130deg, #33213b, #1a1725 70%);
-  border: 1px solid var(--borda);
-  border-radius: 1.25rem;
-}
+Botão (.botao):
+- Destacar a ação principal com fundo colorido, texto legível e espaçamento interno.
+- Clarear o fundo quando o ponteiro passar sobre o botão.
 
-.etiqueta,
-.tipo {
-  color: var(--destaque);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
+Coleções (.colecao):
+- Criar espaço vertical entre os grupos de mídias.
 
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-}
+Títulos de seção:
+- Usar uma cor suave no texto auxiliar da seção.
 
-h1 {
-  max-width: 700px;
-  margin-bottom: 0.75rem;
-  font-size: clamp(2rem, 6vw, 3.5rem);
-  line-height: 1.1;
-}
+Grade de cartões (.grade-cards):
+- Organizar os cartões em colunas responsivas, mantendo espaço entre eles.
 
-.apresentacao > p:not(.etiqueta) {
-  max-width: 620px;
-  color: var(--texto-suave);
-}
+Cartões (.card):
+- Aplicar fundo de painel, borda e cantos arredondados.
+- Destacar o cartão ao passar o ponteiro com uma elevação discreta e borda colorida.
 
-.botao {
-  display: inline-block;
-  margin-top: 0.75rem;
-  padding: 0.7rem 1rem;
-  border-radius: 0.5rem;
-  background: var(--destaque);
-  color: #1b1010;
-  font-weight: 700;
-  text-decoration: none;
-}
+Pôsteres:
+- Criar uma área visual para pôsteres sem imagem, com conteúdo centralizado.
+- Usar fundos diferentes para distinguir pôsteres de séries e livros.
 
-.botao:hover {
-  background: #ff8b5e;
-}
+Conteúdo dos cartões (.card-conteudo):
+- Adicionar espaço interno ao conteúdo.
+- Ajustar as margens dos títulos, tipos e informações de autoria.
+- Usar cor suave para as descrições e texto menor para autoria.
 
-.colecao {
-  padding: 3rem 0;
-}
+Avisos (.aviso):
+- Destacar avisos com painel próprio, espaçamento interno e borda lateral colorida.
+- Deixar o último parágrafo sem margem inferior e com cor suave.
 
-.titulo-secao > p:last-child {
-  color: var(--texto-suave);
-}
+Trechos de código:
+- Usar uma cor que os diferencie do texto comum.
 
-.grade-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
-  gap: 1.25rem;
-  margin-top: 1.5rem;
-}
+Rodapé:
+- Organizar os itens com espaço entre eles e permitir que quebrem para outra linha.
+- Usar borda superior e texto secundário.
+- Remover a margem dos parágrafos do rodapé.
 
-.card {
-  overflow: hidden;
-  border: 1px solid var(--borda);
-  border-radius: 1rem;
-  background: var(--painel);
-  transition: transform 160ms ease, border-color 160ms ease;
-}
+Telas menores:
+- Permitir que cabeçalho e menu ocupem linhas separadas.
+- Ajustar o alinhamento do cabeçalho para telas estreitas.
 
-.card:hover {
-  transform: translateY(-4px);
-  border-color: var(--destaque);
-}
-
-.poster {
-  display: grid;
-  min-height: 180px;
-  place-items: center;
-  background: radial-gradient(circle at 50% 40%, #704554, #241b2c 68%);
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 0.15em;
-}
-
-.poster-serie {
-  background: radial-gradient(circle at 50% 40%, #355666, #1a1b2b 68%);
-}
-
-.poster-livro {
-  background: radial-gradient(circle at 50% 40%, #74603d, #29202b 68%);
-}
-
-.card-conteudo {
-  padding: 1.25rem;
-}
-
-.tipo {
-  margin-bottom: 0.5rem;
-  font-size: 0.75rem;
-}
-
-.card-conteudo h3 {
-  margin-bottom: 0.5rem;
-}
-
-.card-conteudo > p:not(.tipo) {
-  color: var(--texto-suave);
-}
-
-.card-conteudo .autor {
-  margin-bottom: 0;
-  font-size: 0.88rem;
-}
-
-.aviso {
-  padding: 1.5rem;
-  border-left: 4px solid var(--destaque);
-  border-radius: 0.5rem;
-  background: var(--painel);
-}
-
-.aviso p:last-child {
-  margin-bottom: 0;
-  color: var(--texto-suave);
-}
-
-code {
-  color: #ffd2be;
-}
-
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  padding: 1.25rem clamp(1rem, 5vw, 4rem);
-  border-top: 1px solid var(--borda);
-  color: var(--texto-suave);
-}
-
-footer p {
-  margin: 0;
-}
-
-@media (max-width: 680px) {
-  header {
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .menu {
-    width: 100%;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-  }
-}
+Preferência por movimento reduzido:
+- Reduzir animações e transições para pessoas que preferem menos movimento.
+*/
