@@ -1,4 +1,4 @@
-# Halloweenflix — atividade em equipe de HTML e CSS
+# Halloweenflix atividade em equipe de HTML e CSS
 
 ## Sobre a atividade
 
