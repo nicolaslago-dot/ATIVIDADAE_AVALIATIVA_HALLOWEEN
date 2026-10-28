@@ -12,45 +12,50 @@
   <header>
     <img src="imagens/logo.png" alt="Logo Halloweenflix" width="60">
     <p>Halloweenflix</p>
-    <nav class="menu">
-      <a href="index.html">Início</a>
+    <nav class="menu" aria-label="Navegação principal">
+      <a href="index.html" aria-current="page">Início</a>
       <a href="filmes.html">Filmes</a>
       <a href="favoritos.html">Mídias favoritas</a>
-      <a href="categorias.html">Categorias</a>
+      <a href="categorias.html">Catálogo da turma</a>
       <a href="halloween.html">Halloween</a>
       <a href="cadastro.html">Cadastro</a>
     </nav>
   </header>
 
+  <!-- ATIVIDADE — Equipe 5
+       Reescrevam a apresentação e revisem banner e destaque. Criem os estilos em css/dashboard.css; confiram os acessos às áreas principais.
+       O HTML é a base de trabalho; todo o CSS será escrito pelos alunos. -->
   <main>
     <section id="banner">
       <h1>Bem-vindo à Halloweenflix!</h1>
       <img src="imagens/banner-halloween.jpg" alt="Noite de Halloween" width="600">
-      <p>Encontre histórias assustadoras para assistir com a turma — escolha seu próximo filme de terror favorito!</p>
+      <p>Conheça filmes de terror de exemplo, explore as páginas individuais dos alunos e descubra as indicações da turma.</p>
+      <p>Este site é um projeto fictício de HTML e CSS: não reproduz filmes e não realiza aluguéis.</p>
       <a class="botao" href="filmes.html">Ver filmes</a>
     </section>
 
     <section>
-      <h2>Filme em destaque</h3>
+      <h2>Filme em destaque</h2>
       <div class="card">
         <img src="imagens/filmes/casa-das-sombras.svg" alt="A Casa das Sombras" width="180">
         <h3>A Casa das Sombras</h3>
         <p>Sobrenatural | 14 anos</p>
         <p>Uma casa guarda um mistério à meia-noite.</p>
-        <a href="detalhes-filme.html">Ver detalhes</a>
+        <a href="detalhes-filme.html#casa-das-sombras">Ver detalhes</a>
       </div>
     </section>
 
     <section>
-      <h2>Escolha uma categoria</h2>
-      <a href="categorias.html">Conhecer categorias</a>
+      <h2>Explore o catálogo da turma</h2>
+      <a href="categorias.html#generos-titulo">Conhecer os gêneros</a>
       <p>Explore histórias sobrenaturais, psicológicas e clássicos do terror.</p>
+      <p><a href="categorias.html#catalogo-titulo">Abrir as páginas dos alunos</a></p>
       <a class="botao" href="halloween.html">Especial de Halloween</a>
     </section>
   </main>
 
   <footer>
-    <p>Halloweenflix — projeto da turma.</p>
+    <p>Halloweenflix projeto da turma.</p>
     <a href="index.html">Voltar ao início</a>
   </footer>
 </body>

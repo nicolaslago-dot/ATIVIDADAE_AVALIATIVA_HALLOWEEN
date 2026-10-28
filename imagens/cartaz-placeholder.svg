@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-labelledby="title description">
+  <title id="title">Cartaz provisório</title>
+  <desc id="description">Ilustração de uma casa assombrada sob a lua. Substitua pelo cartaz do filme.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161126"/>
+      <stop offset="1" stop-color="#542b56"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <circle cx="292" cy="145" r="58" fill="#f3c76c"/>
+  <path d="M0 415 72 332l49 58 76-112 73 97 49-58 81 93v190H0Z" fill="#24172d"/>
+  <path d="m93 438 107-112 112 112v122H93Z" fill="#120f1c" stroke="#d48b5c" stroke-width="8"/>
+  <path d="m72 441 128-137 137 137" fill="none" stroke="#d48b5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M170 560v-89a30 30 0 0 1 60 0v89M122 461h35v42h-35zm120 0h35v42h-35z" fill="#f3c76c"/>
+  <text x="200" y="578" fill="#fff2d6" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">SUBSTITUA PELO CARTAZ DO FILME</text>
+</svg>

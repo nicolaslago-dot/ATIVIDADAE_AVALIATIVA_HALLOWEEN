@@ -1,20 +1,30 @@
 /*
-Este arquivo descreve o que deve ser feito com o catálogo e a lista de categorias.
-Não há regras CSS implementadas aqui.
+ATIVIDADE — EQUIPE 3: CATÁLOGO, GÊNEROS E VITRINE DOS ALUNOS
+Este arquivo começa sem estilos. Escrevam suas regras depois deste comentário.
+Os estilos comuns serão escritos pela Equipe 1 em global.css e menu.css.
 
-Catálogo (#catalogo):
-- Organizar os filmes em uma grade de colunas que se adapte à largura da tela.
-- Manter espaço entre os cartões e ao redor da grade.
+ANTES DE COMEÇAR
+- Abram filmes.html e categorias.html e identifiquem os elementos citados abaixo.
+- Planejem o resultado e escolham os seletores, as propriedades e os valores.
 
-Imagens dos cartões do catálogo:
-- Exibir os pôsteres ocupando a largura do cartão.
-- Limitar a altura e preservar as proporções, sem distorcer as imagens.
-- Arredondar os cantos das imagens.
+CATÁLOGO DE FILMES (#catalogo e seus .card)
+- Organizem os cinco filmes em uma grade com Grid e espaço entre os cards.
+- Adaptem o número de colunas à largura disponível.
+- Façam os cartazes caberem no card, sem distorção, e organizem títulos e textos.
+- Complementem o visual comum de .card sem alterar os cards de outras páginas.
 
-Títulos dos filmes:
-- Usar um tamanho de texto adequado para títulos dentro dos cartões.
+GÊNEROS (.descricao-categorias)
+- Organizem a lista e separem os itens para facilitar a leitura.
+- Deixem os links visíveis e fáceis de usar com mouse e teclado.
+- Confiram se cada link chega ao card certo de filmes.html.
 
-Lista de categorias (.descricao-categorias):
-- Indentar a lista em relação ao conteúdo ao redor.
-- Separar os itens verticalmente para facilitar a leitura.
+VITRINE DOS ALUNOS (.catalogo-alunos e .card-aluno)
+- Organizem os 15 cartões em uma grade que se adapte à tela.
+- Padronizem espaço, imagens e títulos sem esconder os nomes.
+- Destaquem o cartão ao passar o mouse e ao receber foco pelo teclado.
+
+CONFERÊNCIA
+- Testem as duas páginas em telas largas e estreitas, sem rolagem lateral.
+- Os estilos desta folha não devem mudar a aparência do mural de favoritos.
+- O mural tem sua própria folha: favoritos.css.
 */

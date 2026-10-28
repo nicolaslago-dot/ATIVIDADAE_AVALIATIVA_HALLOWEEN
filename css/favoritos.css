@@ -1,83 +1,30 @@
 /*
-Este arquivo descreve o que deve ser feito com a página de mídias favoritas.
-Não há regras CSS implementadas aqui.
+ATIVIDADE — EQUIPE 3: VISUAL DO MURAL COLETIVO
+Cada equipe acrescenta seu conteúdo em favoritos.html. A Equipe 3 organiza
+as contribuições e escreve todos os estilos específicos desta folha.
+Escrevam suas regras depois deste comentário; não há estilos prontos.
 
-Tema e cores:
-- Usar um esquema escuro com cores reutilizáveis para fundo, painéis, texto,
-  texto secundário, destaque e bordas.
+BASE COMPARTILHADA
+- Combinem cores, fonte, cards e botões com a Equipe 1.
+- Usem global.css para a base e menu.css para o cabeçalho.
+- Evitem redefinir o visual do site inteiro nesta folha.
 
-Todos os elementos:
-- Considerar bordas e espaçamentos dentro do tamanho total dos elementos.
+PARTES A ESTILIZAR
+- .apresentacao: criem um painel que destaque a introdução do mural.
+- .etiqueta e .tipo: destaquem os rótulos sem prejudicar a leitura.
+- .colecao e .titulo-secao: organizem os títulos e os espaços entre as áreas.
+- .grade-cards: criem uma grade com Grid que se adapte à largura da tela.
+- .colecao .card: complementem o visual comum apenas nos cards do mural.
+- .poster: criem uma área ilustrativa, centralizando o tipo da mídia.
+- .poster-filme, .poster-serie e .poster-livro: diferenciem os tipos de pôster.
+  Se houver outros tipos de mídia, criem classes adequadas no HTML e no CSS.
+- .card-conteudo: organizem textos e espaços internos.
+- .autor: destaquem quem fez a indicação, mantendo o texto legível.
+- .aviso: diferenciem as orientações do restante do conteúdo.
 
-Página inteira:
-- Remover a margem padrão e aplicar fundo escuro, texto claro e fonte legível.
-- Usar uma altura de linha confortável.
-
-Cabeçalho:
-- Distribuir o nome do site e o menu, com espaçamento e borda inferior.
-- Remover a margem do nome do site e destacá-lo visualmente.
-
-Menu e rodapé:
-- Exibir links claros sem sublinhado permanente.
-- Destacar links quando apontados ou focados com teclado.
-- Mostrar contorno de foco visível durante a navegação por teclado.
-
-Conteúdo principal:
-- Centralizar o conteúdo, limitar sua largura e adicionar espaçamento vertical.
-
-Apresentação (.apresentacao):
-- Criar um painel de introdução com espaço interno, fundo em degradê, borda e cantos arredondados.
-
-Etiquetas e tipos (.etiqueta e .tipo):
-- Destacar os rótulos com a cor principal, letras em maiúsculas e espaçamento entre caracteres.
-
-Títulos e parágrafos:
-- Remover a margem superior padrão.
-- Dar ao título principal um tamanho responsivo, largura limitada e espaçamento inferior.
-- Limitar a largura do texto de apresentação e usar uma cor mais suave.
-
-Botão (.botao):
-- Destacar a ação principal com fundo colorido, texto legível e espaçamento interno.
-- Clarear o fundo quando o ponteiro passar sobre o botão.
-
-Coleções (.colecao):
-- Criar espaço vertical entre os grupos de mídias.
-
-Títulos de seção:
-- Usar uma cor suave no texto auxiliar da seção.
-
-Grade de cartões (.grade-cards):
-- Organizar os cartões em colunas responsivas, mantendo espaço entre eles.
-
-Cartões (.card):
-- Aplicar fundo de painel, borda e cantos arredondados.
-- Destacar o cartão ao passar o ponteiro com uma elevação discreta e borda colorida.
-
-Pôsteres:
-- Criar uma área visual para pôsteres sem imagem, com conteúdo centralizado.
-- Usar fundos diferentes para distinguir pôsteres de séries e livros.
-
-Conteúdo dos cartões (.card-conteudo):
-- Adicionar espaço interno ao conteúdo.
-- Ajustar as margens dos títulos, tipos e informações de autoria.
-- Usar cor suave para as descrições e texto menor para autoria.
-
-Avisos (.aviso):
-- Destacar avisos com painel próprio, espaçamento interno e borda lateral colorida.
-- Deixar o último parágrafo sem margem inferior e com cor suave.
-
-Trechos de código:
-- Usar uma cor que os diferencie do texto comum.
-
-Rodapé:
-- Organizar os itens com espaço entre eles e permitir que quebrem para outra linha.
-- Usar borda superior e texto secundário.
-- Remover a margem dos parágrafos do rodapé.
-
-Telas menores:
-- Permitir que cabeçalho e menu ocupem linhas separadas.
-- Ajustar o alinhamento do cabeçalho para telas estreitas.
-
-Preferência por movimento reduzido:
-- Reduzir animações e transições para pessoas que preferem menos movimento.
+CONFERÊNCIA
+- Mantenham o foco dos controles visível e criem efeitos de mouse sem depender deles.
+- Testem as cinco indicações próprias das equipes em telas largas e estreitas.
+- Se usarem animações, respeitem a preferência por movimento reduzido.
+- Escolham seus próprios seletores, propriedades e valores.
 */

@@ -12,16 +12,19 @@
   <header>
     <img src="imagens/logo.png" alt="Logo Halloweenflix" width="60">
     <p>Halloweenflix</p>
-    <nav class="menu">
+    <nav class="menu" aria-label="Navegação principal">
       <a href="index.html">Início</a>
-      <a href="filmes.html">Filmes</a>
+      <a href="filmes.html" aria-current="page">Filmes</a>
       <a href="favoritos.html">Mídias favoritas</a>
-      <a href="categorias.html">Categorias</a>
+      <a href="categorias.html">Catálogo da turma</a>
       <a href="halloween.html">Halloween</a>
       <a href="cadastro.html">Cadastro</a>
     </nav>
   </header>
 
+  <!-- ATIVIDADE — Equipe 3
+       Melhorem as descrições dos cinco cards e confiram os dados com a Equipe 4. Criem a grade e os estilos em css/catalogo.css.
+       O HTML é a base de trabalho; todo o CSS será escrito pelos alunos. -->
   <main>
     <h1>Catálogo de filmes</h1>
     <p>Os filmes e as classificações desta atividade são fictícios.</p>
@@ -32,26 +35,26 @@
         <h2>A Casa das Sombras</h2>
         <p>Sobrenatural | 14 anos</p>
         <p>Uma casa guarda um mistério à meia-noite.</p>
-        <a href="detalhes-filme.html">Ver detalhes</a>
+        <a href="detalhes-filme.html#casa-das-sombras">Ver detalhes</a>
       </div>
 
       <div class="card" id="psicologico">
         <img src="imagens/filmes/ultimo-corredor.svg" alt="O Último Corredor" width="180">
         <h2>O Último Corredor</h2>
         <p>Terror psicológico | 16 anos</p>
-        <p>Uma pessoa acorda em um corredor interminável e precisa descobrir quem está seguindo seus passos.</p>
+        <p>Caio acorda em um prédio vazio e procura a saída de um corredor cujas portas revelam suas lembranças.</p>
         <a href="detalhes-filme.html#ultimo-corredor">Ver detalhes</a>
       </div>
 
       <div class="card" id="slasher">
-        <img src="imagens/filmes/mascara-da-meia-noite.jpg" alt="A Máscara da Meia-Noite" width="180">
+        <img src="imagens/filmes/mascara-da-meia-noite.svg" alt="A Máscara da Meia-Noite" width="180">
         <h2>A Máscara da Meia-Noite</h2>
         <p>Slasher | 16 anos</p>
         <p>Uma máscara desaparece antes da festa.</p>
         <a href="detalhes-filme.html#mascara-da-meia-noite">Ver detalhes</a>
       </div>
 
-      <div class="card" id="zumbis">
+      <div class="card" id="suspense-sobrenatural">
         <img src="imagens/filmes/jardim-dos-esquecidos.svg" alt="O Jardim dos Esquecidos" width="180">
         <h2>O Jardim dos Esquecidos</h2>
         <p>Suspense sobrenatural | 12 anos</p>
@@ -63,14 +66,14 @@
         <img src="imagens/filmes/castelo-da-nevoa.svg" alt="O Castelo da Névoa" width="180">
         <h2>O Castelo da Névoa</h2>
         <p>Clássicos do terror | 12 anos</p>
-        <p>Um castelo desaparece ao nascer do sol.</p>
+        <p>Uma viajante se abriga em um castelo cercado por névoa e descobre que o caminho de volta desapareceu.</p>
         <a href="detalhes-filme.html#castelo-da-nevoa">Ver detalhes</a>
       </div>
     </div>
   </main>
 
   <footer>
-    <p>Halloweenflix — projeto da turma.</p>
+    <p>Halloweenflix projeto da turma.</p>
     <a href="index.html">Voltar ao início</a>
   </footer>
 </body>

@@ -12,45 +12,49 @@
   <header>
     <img src="imagens/logo.png" alt="Logo Halloweenflix" width="60">
     <p>Halloweenflix</p>
-    <nav class="menu">
+    <nav class="menu" aria-label="Navegação principal">
       <a href="index.html">Início</a>
       <a href="filmes.html">Filmes</a>
       <a href="favoritos.html">Mídias favoritas</a>
-      <a href="categorias.html">Categorias</a>
+      <a href="categorias.html">Catálogo da turma</a>
       <a href="halloween.html">Halloween</a>
-      <a href="cadastro.html">Cadastro</a>
+      <a href="cadastro.html" aria-current="page">Cadastro</a>
     </nav>
   </header>
 
+  <!-- ATIVIDADE — Equipe 4
+       Revisem rótulos, campos e avisos. Criem os estilos em css/detalhes-cadastro.css, preservando o formulário sem envio ou armazenamento.
+       O HTML é a base de trabalho; todo o CSS será escrito pelos alunos. -->
   <main>
     <h1>Cadastrar filme</h1>
-    <p>Este formulário é apenas um exemplo. Nada será salvo.</p>
+    <p>Este formulário é apenas um exemplo. Nada será enviado ou salvo.</p>
+    <p>Os campos indicados como obrigatórios fazem parte do modelo de cadastro. O botão Cadastrar é ilustrativo e não realiza validação ou cadastro.</p>
 
     <form id="cadastro">
       <p>
-        <label for="titulo">Título:</label><br>
+        <label for="titulo">Título (obrigatório):</label><br>
         <input type="text" id="titulo" name="titulo" required>
       </p>
 
       <p>
-        <label for="imagem">Caminho da imagem:</label><br>
+        <label for="imagem">Caminho da imagem (opcional):</label><br>
         <input type="text" id="imagem" name="imagem" placeholder="imagens/filmes/cartaz.svg">
       </p>
 
       <p>
-        <label for="genero">Gênero:</label><br>
+        <label for="genero">Gênero (obrigatório):</label><br>
         <select id="genero" name="genero" required>
           <option value="">Escolha</option>
           <option value="sobrenatural">Sobrenatural</option>
           <option value="psicologico">Terror psicológico</option>
           <option value="slasher">Slasher</option>
-          <option value="zumbis">Zumbis</option>
+          <option value="suspense-sobrenatural">Suspense sobrenatural</option>
           <option value="classicos">Clássicos do terror</option>
         </select>
       </p>
 
       <p>
-        <label for="sinopse">Descrição:</label><br>
+        <label for="descricao">Descrição (obrigatória):</label><br>
         <textarea id="descricao" name="descricao" rows="4" required></textarea>
       </p>
 
@@ -61,7 +65,7 @@
   </main>
 
   <footer>
-    <p>Halloweenflix — projeto da turma.</p>
+    <p>Halloweenflix projeto da turma.</p>
     <a href="index.html">Voltar ao início</a>
   </footer>
 </body>

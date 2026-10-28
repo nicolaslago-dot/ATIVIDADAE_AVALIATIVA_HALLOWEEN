@@ -12,16 +12,19 @@
   <header>
     <img src="imagens/logo.png" alt="Logo Halloweenflix" width="60">
     <p>Halloweenflix</p>
-    <nav class="menu">
+    <nav class="menu" aria-label="Navegação principal">
       <a href="index.html">Início</a>
       <a href="filmes.html">Filmes</a>
       <a href="favoritos.html" aria-current="page">Mídias favoritas</a>
-      <a href="categorias.html">Categorias</a>
+      <a href="categorias.html">Catálogo da turma</a>
       <a href="halloween.html">Halloween</a>
       <a href="cadastro.html">Cadastro</a>
     </nav>
   </header>
 
+  <!-- ATIVIDADE — Equipe 3 e todas as equipes
+       Cada equipe acrescenta pelo menos uma indicação própria. A Equipe 3 reúne as contribuições e escreve css/favoritos.css.
+       O HTML é a base de trabalho; todo o CSS será escrito pelos alunos. -->
   <main>
     <section class="apresentacao">
       <p class="etiqueta">Espaço da turma</p>
@@ -30,11 +33,11 @@
       <a class="botao" href="#colecao-favorita">Ver mídias favoritas</a>
     </section>
 
-    <section class="colecao" aria-labelledby="titulo-colecao">
+    <section class="colecao" id="colecao-favorita" aria-labelledby="titulo-colecao">
       <div class="titulo-secao">
         <p class="etiqueta">Nosso catálogo</p>
         <h2 id="titulo-colecao">Escolhas que dão arrepios</h2>
-        <p>Use os exemplos como modelo e acrescente um card para cada mídia favorita.</p>
+        <p>Os três cards iniciais são modelos. Cada equipe deve acrescentar pelo menos uma indicação própria e identificar quem escolheu a mídia.</p>
       </div>
 
       <div class="grade-cards">
@@ -72,13 +75,14 @@
 
     <aside class="aviso">
       <h2>Como adicionar sua mídia?</h2>
-      <p>Neste arquivo, copie um bloco <code>&lt;article class="card"&gt;</code> e troque tipo, título, descrição e nome do aluno. O visual dos cards fica em <strong>css/favoritos.css</strong>.</p>
+      <p>Combinem a edição com a Equipe 3. Copiem um bloco completo de card e atualizem o tipo, o gênero, o título, a descrição e o nome da equipe ou dos integrantes.</p>
+      <p>A Equipe 3 reúne as indicações e escreve os estilos em css/favoritos.css. O arquivo começa apenas com orientações; os estilos serão criados pelos alunos.</p>
       <p>Esta atividade usa HTML e CSS: os cards são adicionados editando o arquivo, não por um formulário.</p>
     </aside>
   </main>
 
   <footer>
-    <p>Halloweenflix — projeto da turma.</p>
+    <p>Halloweenflix projeto da turma.</p>
     <a href="index.html">Voltar ao início</a>
   </footer>
 </body>

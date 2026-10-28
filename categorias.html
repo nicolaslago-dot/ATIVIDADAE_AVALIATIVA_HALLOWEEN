@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Categorias | Halloweenflix</title>
+  <title>Catálogo da turma | Halloweenflix</title>
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/catalogo.css">
@@ -12,39 +12,166 @@
   <header>
     <img src="imagens/logo.png" alt="Logo Halloweenflix" width="60">
     <p>Halloweenflix</p>
-    <nav class="menu">
+    <nav class="menu" aria-label="Navegação principal">
       <a href="index.html">Início</a>
       <a href="filmes.html">Filmes</a>
       <a href="favoritos.html">Mídias favoritas</a>
-      <a href="categorias.html">Categorias</a>
+      <a href="categorias.html" aria-current="page">Catálogo da turma</a>
       <a href="halloween.html">Halloween</a>
       <a href="cadastro.html">Cadastro</a>
     </nav>
   </header>
 
+  <!-- ATIVIDADE — Equipe 3
+       Confiram os gêneros e os 15 links individuais. Criem o visual da lista e da vitrine em css/catalogo.css; cada aluno cria sua própria página.
+       O HTML é a base de trabalho; todo o CSS será escrito pelos alunos. -->
   <main>
-    <h1>Categorias de terror</h1>
-    <p>Clique em uma categoria para ir ao catálogo.</p>
+    <section class="catalogo-intro">
+      <h1>Catálogo da turma</h1>
+      <p>Explore os filmes por gênero e abra as páginas individuais sobre as mídias de terror escolhidas pelos alunos.</p>
+    </section>
 
-    <ul>
-      <li><a href="filmes.html#psicologico">Terror psicológico</a></li>
-      <li><a href="filmes.html#sobrenatural">Sobrenatural</a></li>
-      <li><a href="filmes.html#slasher">Slasher</a></li>
-      <li><a href="filmes.html#zumbi">Zumbis</a></li>
-      <li><a href="filmes.html#classicos">Clássicos do terror</a></li>
-    </ul>
+    <section aria-labelledby="generos-titulo">
+      <h2 id="generos-titulo">Explore os filmes por gênero</h2>
+      <p>Cada link leva a um filme de exemplo no catálogo.</p>
+      <ul class="descricao-categorias">
+        <li><a href="filmes.html#sobrenatural">Sobrenatural</a> — mistérios, aparições e acontecimentos inexplicáveis.</li>
+        <li><a href="filmes.html#psicologico">Terror psicológico</a> — medo construído pelas dúvidas, lembranças e percepções dos personagens.</li>
+        <li><a href="filmes.html#slasher">Slasher</a> — suspense com perseguições e uma ameaça aos personagens.</li>
+        <li><a href="filmes.html#suspense-sobrenatural">Suspense sobrenatural</a> — investigação e tensão em torno de um fenômeno misterioso.</li>
+        <li><a href="filmes.html#classicos">Clássicos do terror</a> — histórias de exemplo inspiradas na atmosfera dos filmes antigos.</li>
+      </ul>
+    </section>
 
-    <ul class="descricao-categorias">
-      <li><strong>Terror psicológico:</strong> histórias que brincam com a dúvida, a memória e o medo.</li>
-      <li><strong>Sobrenatural:</strong> mistérios com fantasmas, maldições e acontecimentos inexplicáveis.</li>
-      <li><strong>Slasher:</strong> suspense de perseguição em que alguém tenta escapar de um mascarado.</li>
-      <li><strong>Zumbis:</strong> aventuras de sobrevivência diante de criaturas que voltaram à vida.</li>
-      <li><strong>Clássicos do terror:</strong> castelos, névoa e monstros em histórias tradicionais.</li>
-    </ul>
+    <section aria-labelledby="catalogo-titulo">
+      <h2 id="catalogo-titulo">Páginas individuais</h2>
+      <p>Selecione o nome de um aluno. As páginas começam vazias e receberão conteúdo durante a atividade.</p>
+      <div class="catalogo-alunos">
+        <a class="card-aluno" href="entregas-catalogo/anna/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Anna</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/augusto/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Augusto</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/giovanna-b/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Giovanna B</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/giovanna-s/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Giovanna S</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/giovanny/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Giovanny</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/helena/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Helena</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/henrique/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Henrique</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/lucas/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Lucas</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/mayara/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Mayara</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/micael/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Micael</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/pedro/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Pedro</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/sibele/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Sibele</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/thiago/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Thiago</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/vinicius/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Vinicius</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+
+        <a class="card-aluno" href="entregas-catalogo/zaqueu/index.html">
+          <article>
+            <img src="imagens/cartaz-placeholder.svg" alt="">
+            <h3>Zaqueu</h3>
+            <p>Abrir página</p>
+          </article>
+        </a>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>Halloweenflix — projeto da turma.</p>
+    <p>Halloweenflix catálogo de mídias de terror.</p>
     <a href="index.html">Voltar ao início</a>
   </footer>
 </body>
