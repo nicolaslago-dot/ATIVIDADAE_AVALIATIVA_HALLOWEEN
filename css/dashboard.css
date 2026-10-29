@@ -28,3 +28,68 @@ Cartão do filme em destaque (#banner + section .card):
 Outras seções da página inicial (main > section:not(#banner)):
 - Adicionar espaço vertical entre as seções.
 */
+
+@font-face {
+    font-family: friday;
+    src: url(/font/Friday13v12.ttf);
+}
+
+@font-face {
+    font-family: horror;
+    src: url(/font/Horrors.otf);
+}
+
+body {
+    background-color: rgb(104, 76, 116);
+}
+
+header {
+    background-color: rgb(80, 36, 138);
+    font-family: friday;
+    border-radius: 8px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: x-large;
+}
+
+h1 {
+    font-family: friday;
+    color: rgb(119, 26, 62);
+    text-decoration: none;
+}
+
+h2 {
+    font-family: friday;
+    text-decoration: none;
+    color: rgb(119, 26, 62);
+}
+
+h3{
+    font-family: friday;
+    text-decoration: none;
+    color: rgb(119, 26, 62);
+}
+
+.menu {
+    color: rgb(119, 26, 62);
+    font-family: friday;
+    color:rgb(156, 107, 0)
+}
+
+a {
+    text-decoration: none;
+    color:rgb(156, 107, 0);
+    font-family: friday;
+}
+
+nav {
+    text-decoration: none;
+    color:rgb(156, 107, 0)
+}
+
+p {
+    font-family: horror;
+    color: rgb(68, 1, 1);
+}
