@@ -28,3 +28,75 @@ Cartão do filme em destaque (#banner + section .card):
 Outras seções da página inicial (main > section:not(#banner)):
 - Adicionar espaço vertical entre as seções.
 */
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #100719;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #951ce6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #F5C451   
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.banner {
+    padding: 60px 20px;
+    text-align: center;
+    background: #8c18da;
+}
+
+button {
+    background:#F5C451;
+    color: #100719;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.filme {
+    background: #F5C451;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #F5C451;
+}
+
+
+#banner {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    text: center;
+}
+
+

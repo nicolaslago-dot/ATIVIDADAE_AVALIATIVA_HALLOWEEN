@@ -1,0 +1,33 @@
+/*
+ATIVIDADE — EQUIPE 5
+Escrevam todos os estilos em novas linhas depois do fechamento deste comentário.
+Escolham seus seletores, propriedades e valores; as orientações abaixo não são código pronto.
+Este arquivo descreve o que deve ser feito com o visual da página inicial.
+Não há regras CSS implementadas aqui.
+
+Banner (#banner):
+- Criar um painel de destaque com fundo colorido e cantos arredondados.
+- Centralizar o texto e os elementos dentro do painel.
+- Ajustar o espaçamento interno para ficar confortável em telas de vários tamanhos.
+
+Imagem do banner (#banner img):
+- Exibir a imagem como bloco e centralizá-la.
+- Limitar sua largura para não ultrapassar o espaço disponível.
+- Adicionar espaço ao redor e cantos arredondados.
+
+Texto do banner (#banner p):
+- Limitar a largura do parágrafo para facilitar a leitura.
+- Centralizar o texto e deixar espaço acima e abaixo.
+
+Seção seguinte ao banner (#banner + section):
+- Adicionar espaço entre o banner e a seção do filme em destaque.
+
+Cartão do filme em destaque (#banner + section .card):
+- Limitar a largura máxima do cartão para manter uma apresentação compacta.
+
+Outras seções da página inicial (main > section:not(#banner)):
+- Adicionar espaço vertical entre as seções.
+*/
+
+
+
