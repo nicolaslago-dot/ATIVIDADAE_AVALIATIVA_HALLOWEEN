@@ -22,3 +22,190 @@ Telas estreitas:
 - Empilhar imagem e informações do filme em uma coluna.
 - Limitar a largura da imagem para que continue confortável de visualizar.
 */
+
+/* cor do fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 14, 14);
+    margin: 0;
+     color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+header {
+    background-color: rgb(114, 107, 107);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgb(114, 107, 107);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* ========================================
+   TÍTULOS
+   ======================================== */
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #584f4f;
+}
+
+
+/* ========================================
+   PARÁGRAFOS
+   ======================================== */
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* ========================================
+   BOTÃO
+   ======================================== */
+
+button {
+    background-color: rgb(175, 112, 112);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* ========================================
+   EFEITO DO MOUSE NO BOTÃO
+   ======================================== */
+
+button:hover {
+    background-color: #ffffff;
+}
+
+
+/* ========================================
+   RODAPÉ
+   ======================================== */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+    /*formulario */
+}
+form {
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+label,
+legend {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 40, 8);
+    border: 1px solid rgb(145, 87, 34);
+    border-radius: 5px;
+    /*------------------------------*/
+    box-sizing: border-box;
+}
+
+textarea {
+    /*Min-height: altura minima*/
+    min-height: 100px;
+}
+
+fieldset {
+    margin-bottom: 12px;
+    border: 1px solid rgb(158, 105, 35);
+}
+
+.opcao{
+    font-weight: normal;
+
+}
+.botao{
+    margin-top: 20px;
+}
+button,
+.botao{
+    background-color: rgb(253, 254, 255);
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover,
+.botao:hover{
+    background-color: rgb(255, 155, 73);
+}
+
+code{
+    color: black;
+} 
+
+nav {
+    background-color: rgb(15, 14, 14);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+} 
+nav a:hover {
+    color:rgb(255, 155, 73);
+}
+
