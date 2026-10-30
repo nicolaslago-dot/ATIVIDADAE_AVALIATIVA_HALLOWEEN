@@ -24,3 +24,10 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+/* ==========================================================================
+   Variáveis Globais e Temas (Design System)
+   ========================================================================== */
+/* Configuração básica da página */
+*{
+    background:#fff ;
+}
