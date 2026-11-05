@@ -24,3 +24,28 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+
+header{
+  text-align: center;
+  background-color: #0B0D0B;
+  color: #E5E0D4;  
+  padding: 30px;
+  margin-bottom: 20px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+header img{
+  width: 50%;
+   border-radius: 40px;
+}
+
+header nav a{
+  font-size: 15px;
+  text-decoration: none;
+  color: #E5E0D4;
+}
+
+header nav a:hover{  
+  color: #A4B58A;
+}

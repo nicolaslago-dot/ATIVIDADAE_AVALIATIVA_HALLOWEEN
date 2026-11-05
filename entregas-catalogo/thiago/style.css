@@ -24,3 +24,38 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+
+@font-face {
+  font-family: friday;
+  src: url(/font/Friday13v12.ttf);
+}
+
+  @font-face {
+    font-family: analog;
+    src: url(/font/VCR_OSD_MONO_1.001.ttf);
+
+}
+
+header {
+  background-color: rgb(51, 5, 5);
+  color: rgb(192, 70, 0);
+  border-radius: 7px;
+  font-family: analog;
+  box-shadow: 8px 8px black;
+}
+
+body {
+  background-color: rgb(77, 14, 3);
+  color: rgb(252, 222, 220);
+  font-family: analog;
+}
+
+.TreeOfHeaven {
+  text-align: center;
+  border-radius: 8px;
+}
+
+.Ihavenomouth {
+  text-align: center;
+  border-radius: 8px;
+}

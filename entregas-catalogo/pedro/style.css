@@ -24,3 +24,179 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #100719;
+    color: #eeeeee;
+    line-height: 1.7;
+}
+
+
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #be81fc, #8300c0);
+    border-bottom: 3px solid #F5C451;
+}
+
+header h1 {
+    color: #F5C451;
+    font-size: clamp(28px, 5vw, 44px);
+    margin: 0 0 10px;
+}
+
+header p {
+    color: #dddddd;
+    margin: 0;
+}
+
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+
+.apresentacao,
+.filme,
+.imagen {
+    background-color: #100719;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #F5C451;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #100719;
+}
+
+
+h2 {
+    color: #F5C451;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #100719;
+}
+
+h3 {
+    color: #e6b84a;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+
+img.imagem,
+img.imagen {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    max-height: 400px;
+    height: auto;
+    object-fit: contain;
+    margin: 25px auto;
+    border-radius: 10px;
+    border: 2px solid #100719;
+    box-shadow: 0 0 15px #F5C451;
+}
+
+
+.filme img:hover,
+.imagen img:hover {
+    transform: scale(1.02);
+}
+
+.filme img,
+.imagen img {
+    transition: transform 0.3s ease;
+}
+
+
+.voltar {
+    display: inline-block;
+    background-color: #100719;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.voltar:hover {
+    background-color: #100719;
+}
+
+.voltar:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #100719;
+    color: #F5C451;
+    padding: 25px 15px;
+    border-top: 2px solid #100719;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .apresentacao,
+    .filme,
+    .imagen {
+        padding: 18px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    img.imagem,
+    img.imagen {
+        max-height: 300px;
+    }
+
+    .voltar {
+        display: block;
+        text-align: center;
+    }
+}

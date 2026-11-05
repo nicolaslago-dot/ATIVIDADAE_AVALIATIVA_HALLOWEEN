@@ -17,7 +17,7 @@ Os CSS contêm somente orientações; não há uma solução visual pronta.
 ## Equipe 1 — Menu e base comum
 
 **Integrantes:** Vinicius, Lucas e Giovanny.  
-**Arquivos:** `css/global.css`, `css/menu.css` e cabeçalhos/rodapés das sete páginas principais.
+**Arquivos:** `css/global.css`, `css/menu.css` e cabeçalhos/rodapés das seis páginas principais.
 
 ### O que fazer
 
@@ -26,8 +26,8 @@ Os CSS contêm somente orientações; não há uma solução visual pronta.
    caibam na tela, rodapé, cards, botões e foco do teclado.
 3. Escrevam `menu.css` para organizar logo, nome e links com Flexbox. Adaptem
    o cabeçalho para manter os links acessíveis em telas estreitas.
-4. Confiram os links para Início, Filmes, Mídias favoritas, Catálogo da turma,
-   Halloween e Cadastro em todas as páginas principais.
+4. Confiram os links para Início, Filmes, Catálogo da turma, Halloween e
+   Cadastro em todas as páginas principais.
 5. Criem no CSS um destaque para a página atual. O atributo `aria-current="page"`
    já identifica no HTML o link que deve receber esse destaque.
 6. Confiram logo, links de retorno e créditos do rodapé com as outras equipes.
@@ -63,11 +63,10 @@ menores e o foco aparece ao navegar com Tab.
 A mensagem foi personalizada, as recomendações correspondem ao catálogo,
 os links e imagens funcionam e a página é legível em computador e celular.
 
-## Equipe 3 — Catálogo, categorias e mural
+## Equipe 3 — Catálogo e categorias
 
 **Integrantes:** Anna, Augusto e Mayara.  
-**Arquivos:** `filmes.html`, `categorias.html`, `css/catalogo.css` e
-`css/favoritos.css`. A equipe também reúne as contribuições de `favoritos.html`.
+**Arquivos:** `filmes.html`, `categorias.html` e `css/catalogo.css`.
 
 ### O que fazer
 
@@ -81,17 +80,13 @@ os links e imagens funcionam e a página é legível em computador e celular.
    a Equipe 3 cuida da vitrine e dos links.
 5. Escrevam `catalogo.css` para organizar filmes e alunos em grades adaptáveis
    à largura da tela. Estilizem também a lista de gêneros e seus links.
-6. Reúnam uma indicação própria de cada equipe em `favoritos.html` e escrevam
-   `favoritos.css`, aproveitando a base comum feita pela Equipe 1.
-
 No início, as páginas individuais ficam vazias porque só têm o enunciado.
 Isso é esperado antes do desenvolvimento; na entrega, todas devem ter conteúdo.
 
 ### Pronto quando
 
 Os cinco filmes têm informações completas, os gêneros levam aos cards certos,
-os 15 links individuais funcionam e o mural contém as cinco contribuições
-das equipes. As grades devem funcionar em computador e celular.
+os 15 links individuais funcionam e as grades funcionam em computador e celular.
 
 ## Equipe 4 — Detalhes e cadastro
 
@@ -129,7 +124,7 @@ e o formulário é legível e claramente demonstrativo.
 ### O que fazer
 
 1. Reescrevam a apresentação explicando o projeto e o que o visitante encontrará:
-   filmes de exemplo, produções individuais e indicações da turma.
+   filmes de exemplo, produções individuais e a página temática de Halloween.
 2. Revisem banner e filme em destaque: imagem, título, gênero, classificação,
    descrição e link para a seção correspondente dos detalhes.
 3. Mantenham acessos claros a filmes, categorias, páginas individuais e Halloween.
@@ -189,21 +184,6 @@ a extensão reais da imagem escolhida.
 Seu cartão abre uma página com conteúdo próprio, imagem visível, seu nome,
 CSS escrito por você e link de retorno funcionando. A leitura deve ser
 confortável em computador e celular.
-
-## Contribuição coletiva — Mídias favoritas
-
-Cada equipe deve acrescentar ao menos uma indicação própria em `favoritos.html`.
-Essa contribuição é diferente da página individual de cada aluno.
-
-1. Escolham a mídia e combinem com a Equipe 3 o momento de editar o arquivo.
-2. Copiem um bloco completo `<article class="card">` dentro de `.grade-cards`.
-3. Atualizem tipo, gênero, título, descrição e identificação da equipe.
-4. Se usarem imagem, salvem o arquivo e incluam texto alternativo. Também podem
-   manter o pôster ilustrativo do modelo, atualizando o tipo da mídia.
-5. A Equipe 3 organiza o mural e escreve `css/favoritos.css`.
-
-Os três cards iniciais são modelos. Na entrega, deve haver pelo menos cinco
-indicações próprias, uma de cada equipe, identificadas por equipe ou integrantes.
 
 ## Conferência e apresentação
 

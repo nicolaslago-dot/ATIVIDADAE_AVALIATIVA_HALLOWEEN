@@ -39,13 +39,9 @@ dos testes e da apresentação. Combinem a divisão das tarefas entre vocês.
 | --- | --- | --- | --- |
 | 1 — Menu e base comum | Vinicius, Lucas e Giovanny | Criar os estilos gerais e do menu; conferir cabeçalho e rodapé. | `css/global.css`, `css/menu.css` e cabeçalhos/rodapés dos HTMLs principais |
 | 2 — Especial de Halloween | Micael, Giovanna S e Zaqueu | Personalizar o conteúdo e criar o visual da página temática. | `halloween.html` e `css/halloween.css` |
-| 3 — Catálogo e categorias | Anna, Augusto e Mayara | Organizar filmes, gêneros, vitrine dos alunos e visual do mural de favoritos. | `filmes.html`, `categorias.html`, `css/catalogo.css` e `css/favoritos.css` |
+| 3 — Catálogo e categorias | Anna, Augusto e Mayara | Organizar filmes, gêneros e vitrine dos alunos. | `filmes.html`, `categorias.html` e `css/catalogo.css` |
 | 4 — Detalhes e cadastro | Sibele, Helena e Giovanna B | Revisar as cinco fichas de filmes e a apresentação do formulário demonstrativo. | `detalhes-filme.html`, `cadastro.html` e `css/detalhes-cadastro.css` |
 | 5 — Página inicial | Henrique, Thiago e Pedro | Personalizar apresentação, banner e destaques. | `index.html` e `css/dashboard.css` |
-
-`favoritos.html` é compartilhado: cada equipe deve acrescentar ao menos uma
-indicação própria. A Equipe 3 reúne essas contribuições e escreve o CSS dessa
-página. Os três exemplos iniciais não substituem as cinco indicações das equipes.
 
 ## Como organizar o CSS?
 
@@ -86,7 +82,6 @@ caminhos dos arquivos estão em [EQUIPES.md](EQUIPES.md).
 | `halloween.html` | Mensagem temática, contagem ilustrativa e recomendações |
 | `detalhes-filme.html` | Uma página com cinco seções, uma para cada filme |
 | `cadastro.html` | Formulário demonstrativo, sem envio ou armazenamento |
-| `favoritos.html` | Mural coletivo de indicações das equipes |
 | `css/` | Orientações dos estilos que as equipes devem criar |
 | `imagens/` | Logo, banner e cartazes provisórios |
 | `entregas-catalogo/` | Uma pasta por aluno, com enunciados de HTML e CSS |
@@ -118,7 +113,6 @@ caminhos dos arquivos estão em [EQUIPES.md](EQUIPES.md).
 
 - Páginas principais revisadas e personalizadas, com os CSS escritos pelas equipes.
 - As 15 páginas individuais, cada uma com HTML, CSS e imagens organizadas.
-- O mural com pelo menos uma indicação própria de cada equipe.
 - A pasta completa do projeto, incluindo imagens e CSS.
 - Uma apresentação breve: cada integrante deve mostrar uma contribuição e
   explicar uma escolha de HTML ou CSS que fez.
