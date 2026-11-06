@@ -24,3 +24,111 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+body {
+    background-color:rgb(98, 101, 238);
+    margin: 2px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+header {
+    background-color:rgb(25, 4, 75);
+    color: rgb(217, 203, 245);
+    text-align: center;
+    padding: 29px;
+
+}
+header h1{
+font-size: 45px ;
+margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    color: rgb(205, 202, 245);
+    text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+nav{
+    background-color:rgb(16, 8, 56);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color:rgb(154, 148, 233);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:rgb(55, 63, 136);
+}
+
+main {
+    max-width: 1000xp;
+
+    margin: auto;
+
+    padding: 20px;
+
+}
+
+section {
+    margin-bottom: 50px;
+
+}
+section h2 {
+    color:rgb(3, 3, 34);
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+   
+}
+.banner img {
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.personagem {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color:rgb(76, 74, 175);
+    padding: 40px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+
+}
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+.card:hover {
+    background-color:rgb(134, 143, 224);
+    transform: scale(1.05);
+}
+.botao {
+    background-color:rgb(15, 15, 54);
+    color: rgb(104, 102, 231);
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.botao:hover {
+    background-color:rgb(26, 33, 97);
+}
+footer {
+    background-color:rgb(98, 114, 165);
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
