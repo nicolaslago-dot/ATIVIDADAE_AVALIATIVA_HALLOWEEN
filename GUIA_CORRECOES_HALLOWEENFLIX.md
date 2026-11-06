@@ -27,8 +27,6 @@ e os cabeçalhos e rodapés das páginas principais.
 - [ ] Consolidar em `menu.css` as regras duplicadas do cabeçalho e do menu.
 - [ ] Corrigir seletores de interação; conferir, por exemplo, se o efeito de
   foco e de passar o ponteiro é aplicado ao próprio link.
-- [ ] Alinhar logo, nome do site e links, destacando a página atual por meio de
-  `aria-current="page"`.
 - [ ] Conferir se o menu se reorganiza sem cortes em telas estreitas.
 
 ## Equipe 2 — especial de Halloween
