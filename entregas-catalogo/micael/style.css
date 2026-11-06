@@ -1,26 +1,94 @@
-/*
-ATIVIDADE DE CSS INDIVIDUAL — Micael
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-Este arquivo contém somente orientações. Você deve escrever todos os estilos.
-Escreva suas regras em novas linhas depois do fechamento deste comentário.
+body {
+  background-color: #111;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+}
 
-ANTES DE ESTILIZAR
-- Crie o conteúdo no seu index.html e conecte esta folha de estilos ao head.
-- Planeje como organizar título, texto, imagem, comentário pessoal e retorno.
-- Escolha seus próprios seletores, propriedades e valores.
+.pagina {
+  width: 80%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+}
 
-O QUE DESENVOLVER
-- Um visual relacionado à mídia escolhida, com cores e fontes legíveis.
-- Espaçamentos que separem as áreas e deixem a leitura confortável.
-- Uma organização para texto e imagem, usando os recursos estudados em aula.
-- Uma imagem que caiba na largura disponível e mantenha suas proporções.
-- Links fáceis de identificar, com destaque ao passar o mouse e foco visível.
-- Ajustes para telas menores, sem cortar textos ou exigir rolagem lateral.
+.cabecalho {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-COMO CONFERIR
-- Salve o CSS, atualize o navegador e observe o resultado de cada alteração.
-- Se nada mudar, confira o caminho do link no HTML e se escreveu fora do comentário.
-- Teste uma janela larga, uma estreita e a navegação com Tab.
-- Você pode usar a base comum da turma, mas deve criar seus próprios estilos
-  neste arquivo. Não copie o CSS de um colega.
-*/
+.autor {
+  color: #999;
+  font-size: 14px;
+}
+
+h1 {
+  color: #a30000;
+  margin: 10px 0;
+}
+
+.tipo {
+  color: #aaa;
+}
+
+.conteudo {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.conteudo img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.texto h2 {
+  color: #a30000;
+  margin-bottom: 15px;
+}
+
+.texto p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.voltar {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.voltar a {
+  color: white;
+  background-color: #8b0000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.voltar a:hover {
+  background-color: #c00000;
+}
+
+@media (max-width: 700px) {
+  .pagina {
+    width: 95%;
+  }
+
+  .conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteudo img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
