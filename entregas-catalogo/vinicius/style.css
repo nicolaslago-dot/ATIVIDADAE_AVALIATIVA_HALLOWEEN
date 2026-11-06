@@ -24,3 +24,43 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+
+
+
+
+
+
+body {
+    background-color: #1a1a1a;  
+    color: #ffffff;            
+    font-family: sans-serif;   
+    max-width: 600px;          
+    margin: 20px auto;         
+}
+
+a {
+    color: #ff3333;            
+    text-decoration: none;     
+}
+
+h1 {
+    color: #ff3333;            
+    margin-top: 20px;
+}
+
+h2 {
+    color: #cccccc;            
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;      
+}
+
+img {
+    display: block;
+    margin: 20px 0;            
+    max-width: 100%;           
+    height: auto;
+
+}
