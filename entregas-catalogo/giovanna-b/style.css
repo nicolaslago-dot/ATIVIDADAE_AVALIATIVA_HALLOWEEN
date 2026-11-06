@@ -23,4 +23,62 @@ COMO CONFERIR
 - Teste uma janela larga, uma estreita e a navegação com Tab.
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
-*/
+*/ 
+
+body { 
+
+    
+.banner {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    color: #c25f86;
+    font-size: 60px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #222222;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #c25f86;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+    background-color: #5c5557;
+    color: #000000;
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    color: #a73970;
+}
+
+h2 {
+    color: #be4e7b;
+}
+
+a {
+    color: #81485b;
+}
+
+a:hover {
+    color: #753356;
+}
