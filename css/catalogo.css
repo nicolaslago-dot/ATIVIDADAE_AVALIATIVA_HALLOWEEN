@@ -25,4 +25,142 @@ VITRINE DOS ALUNOS (.catalogo-alunos e .card-aluno)
 
 CONFERÊNCIA
 - Testem as duas páginas em telas largas e estreitas, sem rolagem lateral.
+- Os estilos desta folha não devem mudar a aparência do mural de favoritos.
+- O mural tem sua própria folha: favoritos.css.
 */
+#catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 24px;
+    padding: 20px 0;
+    align-items: stretch;
+}
+
+#catalogo .card {
+    min-width: 0;
+    padding: 16px;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+}
+
+#catalogo .card img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+#catalogo .card h2,
+#catalogo .card h3 {
+    margin: 10px 0;
+    line-height: 1.3;
+}
+
+#catalogo .card p {
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+
+.descricao-categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.descricao-categorias a {
+    display: inline-block;
+    padding: 4px 0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+}
+
+.descricao-categorias a:hover {
+    text-decoration-thickness: 2px;
+}
+
+.descricao-categorias a:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 4px;
+    border-radius: 3px;
+}
+
+
+.catalogo-alunos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+    gap: 20px;
+    padding: 20px 0;
+    align-items: stretch;
+}
+
+.catalogo-alunos .card-aluno {
+    min-width: 0;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.catalogo-alunos .card-aluno img {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: 220px;
+    object-fit: cover;
+    margin: 0 auto 12px;
+    border-radius: 8px;
+}
+
+.catalogo-alunos .card-aluno h2,
+.catalogo-alunos .card-aluno h3 {
+    margin: 10px 0;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.catalogo-alunos .card-aluno:hover,
+.catalogo-alunos .card-aluno:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.catalogo-alunos .card-aluno:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+
+
+@media (max-width: 480px) {
+    #catalogo {
+        gap: 14px;
+    }
+
+    #catalogo .card img {
+        height: 240px;
+    }
+
+    .catalogo-alunos {
+        gap: 12px;
+    }
+
+    .catalogo-alunos .card-aluno {
+        padding: 10px;
+    }
+
+    .catalogo-alunos .card-aluno img {
+        height: 160px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .catalogo-alunos .card-aluno {
+        transition: none;
+    }
+}
