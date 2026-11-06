@@ -24,3 +24,97 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+body{
+    margin: 0;
+    background-color: #1C2D24;
+    color: #F4F1EA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header{
+    background-color: #14201A;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1{
+    font-size: 45px;
+    margin: 0;
+    
+}
+
+header p{
+    font-size: 18px;
+
+}
+
+nav {
+    background-color: #4A3728;
+    padding: 20px ;
+    text-align: center;
+    position: sticky;
+    top:0
+}
+
+nav a {
+    color:#b49282;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    
+}
+
+nav a:hover{
+    color:#8B2626
+}
+
+main{
+    max-width: 1000xp;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    color:#485257;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.banner img {
+    width: 80% ;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+}
+
+.personagem {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #2A353A;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #14201A;
+    transform:scale(1.05)
+}
+
