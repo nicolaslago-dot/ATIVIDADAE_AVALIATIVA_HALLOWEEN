@@ -24,3 +24,94 @@ COMO CONFERIR
 - Você pode usar a base comum da turma, mas deve criar seus próprios estilos
   neste arquivo. Não copie o CSS de um colega.
 */
+body {
+    
+    background-color: #81acf3;
+    margin: 0;
+     color: rgb(0, 0, 0);
+     text-align: center;
+}
+ 
+header {
+    background-color: #132369;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+header p {
+    font-size: 18px;
+    text-align: center;
+}
+ p {
+  font-size: 17px;
+}
+ nav {
+    background-color: #0f2750;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+ }
+ nav a {
+    color: #5a8bda;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+ }
+
+ nav a:hover {
+    color:#32496d;
+ }
+
+ main {
+    max-width: 1000xp;
+    margin: auto;
+    padding: 20px;
+ }
+
+ section {
+    margin-bottom: 60px;
+
+ }
+
+ section h2 {
+    color:rgb(38, 57, 109);
+    border-bottom: 2px solid rgb(45, 63, 121);
+    padding-bottom: 10px;
+ }
+.banner img {
+    display: block;           /* Faz a imagem ocupar um bloco */
+    margin-left: auto;        /* Margem automática à esquerda */
+    margin-right: auto;       /* Margem automática à direita */
+    border-radius: 60px;      /* Bordas arredondadas */
+}
+.Personagens {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Cria 3 colunas iguais */
+  gap: 5px;
+}
+
+.card {
+    background-color:#3b588d;
+    padding: 40px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+.card:hover {
+  background-color:#32496d;
+}
+footer {
+    background-color:#132369;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
